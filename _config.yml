@@ -7,18 +7,16 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "3 Boats"
+title                    : "3Boats"
 title_separator          : "-"
-name                     : "Kathryn Formosa"
+name                     : "Kat Formosa"
 description              : "Modern handmade functional ceramics"
 url                      : "https://3boats.github.io"
-baseurl                  : "/"
+baseurl                  : ""
 repository               : "3boats/3boats.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
-comments:
-  provider               : false # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "master"
@@ -55,9 +53,11 @@ og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : "Organization"
+  name                   : "3Boats"
+  links:
+    - https://www.facebook.com/KathrynFormosaCeramics
+    - https://www.etsy.com/au/shop/KatFormosaCeramics
 
 # Analytics
 analytics:
@@ -69,22 +69,22 @@ analytics:
 # Site Author
 author:
   name             : "Kat Formosa"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/kat.jpg"
   bio              : "Ceramic artist"
   location         : "Canberra, ACT Australia"
-  email            :
+  email            : 3boatsceramics@gmail.com
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "KathrynFormosaCeramics"
   foursquare       :
   github           :
   gitlab           :
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : 
   lastfm           :
   linkedin         :
   pinterest        :
@@ -232,7 +232,9 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: # true
       share: true
       related: true
+
+googlewebfonts: "Dancing+Script"

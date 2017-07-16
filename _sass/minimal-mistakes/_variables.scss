@@ -28,8 +28,11 @@ $bodoni                     : "Bodoni MT", serif !default;
 $calisto                    : "Calisto MT", serif !default;
 $garamond                   : Garamond, serif !default;
 
+/* Google Web Fonts */
+$dancing-script             : 'Dancing Script', san-serif;
+
 $global-font-family         : $sans-serif !default;
-$header-font-family         : $sans-serif !default;
+$header-font-family         : $dancing-script !default;
 $caption-font-family        : $serif !default;
 
 /* type scale */
