@@ -7,7 +7,7 @@ author_profile: true
 ---
 
 ## About 3Boats
-3Boats is named after the Lloyd Ree painting _Three Boats_. Lloyd Rees has always inspired me artistically.
+3Boats is named after the Lloyd Rees painting [_Three boats - Lane Cove River_](https://www.artgallery.nsw.gov.au/collection/works/1.1979/). Lloyd Rees has always inspired me artistically.
 
 ## About Kat
 I'm a ceramic artist from Canberra, Australia.
